@@ -9,3 +9,8 @@ node-red:
     enabled: true
     size: 3Gi
     keepPVC: false
+
+mosquitto:
+  portal:
+    open:
+      enabled: true
