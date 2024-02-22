@@ -11,7 +11,7 @@ spec:
     path: config/node-red
     helm:
       valueFiles:
-        - ../../../config/node-red/values.yaml
+        - ../../config/node-red/values.yaml
   syncPolicy:
     automated:
       prune: true
