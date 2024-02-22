@@ -19,6 +19,8 @@ spec:
       allowEmpty: true
     syncOptions:
       - CreateNamespace=true
+      - Prune=true
+      - preserveResourcesOnDeletion=false
   destination:
     server: https://kubernetes.default.svc
     namespace: home-automation
