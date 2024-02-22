@@ -1,2 +1,3 @@
-metrics:
-  enabled: true
+node-red:
+  metrics:
+    enabled: true
