@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: default
+  project: home-automation
   source:
     repoURL: https://github.com/bamaas/k8s-homelab-apps
     targetRevision: main
