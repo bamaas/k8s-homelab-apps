@@ -7,5 +7,5 @@ node-red:
 
   persistence:
     enabled: true
-    size: 5Gi
+    size: 3Gi
     keepPVC: false
