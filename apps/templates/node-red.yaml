@@ -25,4 +25,5 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: home-automation
-  sourceNamespaces: home-automation
+  sourceNamespaces: 
+    - home-automation
