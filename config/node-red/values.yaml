@@ -3,7 +3,7 @@ node-red:
     enabled: true
     serviceMonitor:
       enabled: true
-      namespace: cattle-monitoring-system
+      namespace: home-automation
 
   persistence:
     enabled: true
